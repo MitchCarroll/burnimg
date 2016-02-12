@@ -1,0 +1,5 @@
+#!/bin/bash
+
+(dd if=$1 | pv -n -s $(du -s -b $1 | awk '{print $1}') | sudo dd of=$2) 2>&1 > /dev/null | dialog --gauge 'DD in progress' 0 0
+
+
