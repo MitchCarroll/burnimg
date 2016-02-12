@@ -1,5 +1,13 @@
 #!/bin/bash
 
-(dd if=$1 | pv -n -s $(du -s -b $1 | awk '{print $1}') | sudo dd of=$2) 2>&1 > /dev/null | dialog --gauge 'DD in progress' 0 0
+if [ ! $2 ]; then
+echo 'USAGE: burnimg <source_file> <destination_file>'
+exit 1
+elif [ ! -f $1 ]; then
+echo 'FILE NOT FOUND:' $1
+exit 1
+fi
+
+(dd if=$1 | pv -n -s $(du -s -b $1 | awk '{print $1}') | dd of=$2) 2>&1 > /dev/null | dialog --gauge 'DD in progress' 0 0
 
 

@@ -1,3 +1,4 @@
-a (not so) simple BASH script to copy the contents of one file to another (bitwise) with a nice progress bar.
+A (not so) simple BASH script to copy the contents of one file to another (bitwise) with a nice progress bar.
 uses dd for the copying, pv for the progress tracking, dialog for the fancy graphics, and a smidge of awk on the side.
-
+
+USAGE: burnimg <source_file> <destination_file>
