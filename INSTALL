@@ -1,0 +1,4 @@
+To install, simply make sure the file called burnimg has the proper permissions, and is in your executable path.
+a simple installation might go as follows:
+
+chmod ugo+rx burnimg && sudo cp burnimg /usr/local/bin
