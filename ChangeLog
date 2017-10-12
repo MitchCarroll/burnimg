@@ -1,11 +1,26 @@
+commit e91b5a0ea4e9bd9f7ab727b992487d024c5fbc28
+Author: FOSSPanda <rainger@protonmail.com>
+Date:   Thu Feb 9 09:36:05 2017 -0600
+
+    added some '\' line breaks
+
+commit 5df809fcba37b39627551952fb07ca56a90c0819
+Author: C. Mitch Carroll <c.mitch.carroll@gmail.com>
+Date:   Thu Feb 18 14:59:54 2016 -0600
+
+    reformatted the code a bit
+
+commit 44a6c6e3ad20829b378f855fc921e958e5dc3de5
+Author: C. Mitch Carroll <c.mitch.carroll@gmail.com>
+Date:   Fri Feb 12 01:32:25 2016 -0600
+
+    added some GNU stuff
+
 commit 8e1caafb356adfaadd5eeda40fa06b8aeba6e245
 Author: C. Mitch Carroll <c.mitch.carroll@gmail.com>
 Date:   Fri Feb 12 01:06:48 2016 -0600
 
     Added some usage prompts and error checking (VERY basic) to the script.
-
-:100644 100644 a32b7a0... c676ef0... M	README
-:100755 100755 fbc9c3a... 2b3b901... M	burnimg
 
 commit 2faae4ef6d8930bd01cc072014302e172c94829e
 Author: C. Mitch Carroll <c.mitch.carroll@gmail.com>
@@ -13,12 +28,8 @@ Date:   Fri Feb 12 00:54:21 2016 -0600
 
     added README
 
-:000000 100644 0000000... a32b7a0... A	README
-
 commit 07537d1dc032372e6d000d8585d59427574234b2
 Author: C. Mitch Carroll <c.mitch.carroll@gmail.com>
 Date:   Fri Feb 12 00:52:04 2016 -0600
 
     initial commit
-
-:000000 100755 0000000... fbc9c3a... A	burnimg
